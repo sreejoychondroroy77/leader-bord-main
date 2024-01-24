@@ -1,0 +1,163 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+    background-color: #f3f1ff;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    color: rgb(75, 75, 182);
+    font-size: 24px;
+    margin-top: 3px;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 870px;
+    height: 679px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 4px;
+
+}
+
+hr {
+    border: 1px solid rgb(182, 162, 162)
+}
+
+/* top palyers style  */
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    /* margin-top: 3PX; */
+    font-size: 18px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.course img {
+    width: 224px;
+    height: 127px;
+}
+
+.course {
+    display: flex;
+    align-items: center;
+}
+
+.course>div {
+    flex: 1;
+}
+
+.section-title-2 {
+    /* margin-top: 20px; */
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.intro,
+.intro-1 {
+    margin-top: 1vw;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.section-title-3 {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.name {
+    color: blue;
+    font-size: 16px;
+}
+
+.section-title-3 {
+    color: #562EFF;
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+.latest-course {
+    width: 75%;
+    height: 380px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.courses-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 45px;
+}
+
+.course-1 img {
+    width: 245px;
+    height: 125px;
+}
+
+.course-1 {
+    padding: 8px;
+
+}
+
+.course-title {
+    font-size: 18px;
+}
+
+.course-author {
+    font-size: 13px;
+    color: rgb(202, 77, 77);
+}
+
+.star {
+    color: goldenrod;
+    font-size: 13px;
+}
+
+.course-timer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-1 {
+    background-color: #FF4A60;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
