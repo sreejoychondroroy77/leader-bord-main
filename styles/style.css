@@ -112,18 +112,20 @@ hr {
 }
 
 .latest-course {
-    width: 75%;
+    width: 930px;
     height: 380px;
     background-color: #ffffff;
     border-radius: 5px;
     margin-top: 10px;
+    margin-left: -28px;
+
 }
 
 .courses-1 {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-left: 45px;
+    /* margin-left: 45px; */
 }
 
 .course-1 img {
@@ -161,3 +163,60 @@ hr {
     padding: 5px;
     color: white;
 }
+
+/*---------- 
+      Media Quaries
+
+      Mobile Device
+------------------- */
+@media screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+    }
+
+    .players {
+        /* background-color: red; */
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .player {
+        flex-direction: column;
+    }
+
+    .container-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .latest-course {
+        width: 100%;
+        /* justify-content: end; */
+    }
+
+    .courses-1 {
+        flex-direction: column;
+    }
+
+}
+
+/* Tablet Device */
+
+@media screen and (min-width:669px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    .players {
+        background-color: yellowgreen;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .courses-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .latest-course {
+        width: 100%;
+    }
